@@ -37,7 +37,7 @@ ol, ul {
 }
 
 .kbd-navigation .square:focus {
-  background: #ddd;
+  background-color: rgb(212, 250, 222);
 }
 
 .game {
@@ -47,4 +47,12 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+button:hover {
+  border: 2px solid rgb(95, 250, 136);
+}
+
+.occupied:hover {
+  border: 2px solid rgb(255, 112, 87);
 }
